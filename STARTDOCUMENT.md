@@ -28,7 +28,7 @@ In the table below all the input are described.
 |Case|Type|Conditions|
 |----|----|----------|
 |Name|`string`|not empty|
-|Date of Birth|`Date`|not empty|
+|Date of Birth|`Date`|dd/mm/yyyy|
 |Date of joining The Club|`Date`|dd/mm/yyyy|
 |Playing or Non-Playing|`Boolean`|`True` or `False`|
 
@@ -36,8 +36,8 @@ In the table below all the input are described.
 
 |Case|Type|
 |----|----|
-|Individual Contribution|`Member` + `Float`|
-|Total Contribution|`Float`|
+|Individual Contribution|`Member` + `int`|
+|Total Contribution|`int`|
 |Average Years of Membership|`Float`|
 |Youngest Member|`Member`|
 
