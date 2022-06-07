@@ -98,7 +98,7 @@ Get the cumulative total contribution.
 
 |Expected output|
 |---------------|
-|Lara|
+||
 
 #### #3 Get Average Number of Yeats of Membership
 
@@ -106,7 +106,7 @@ Get the average number of years of membership.
 
 |Expected output|
 |---------------|
-||
+|Lara|
 
 #### #4 Get Youngest Member
 
