@@ -91,12 +91,12 @@ In the following table you'll find all the data that is needed for testing.
 | ------------- | --------------------------------- | 
 | `member1`       | name: David1 H<br />birthDate: 21/09/2001<br />joinDate: 07/06/2020<br />isPlaying: true| -> Senior: 150 + isPlaying|true: 45 + <7y: no Discount = 195
 | `member1`       | name: David1 H<br />birthDate: 21/09/2001<br />joinDate: 07/06/2020<br />isPlaying: false| -> Senior: 150 + isPlaying|false: 0 + <7y: no Discount = 150
-| `member2`       | name: Lara1<br />birthDate: 21/07/2001<br />joinDate: 07/07/2014<br />isPlaying: true| -> Senior: 150 + isPlaying|true: 45 + <7y: yes Discount = 195 - 5% = 185.25
-| `member2`       | name: Lara2<br />birthDate: 21/07/2001<br />joinDate: 07/07/2014<br />isPlaying: false| -> Senior: 150 + isPlaying|false: 0 + <7y: yes Discount = 150 - 5% = 142.5
+| `member2`       | name: Lara1<br />birthDate: 21/07/2003<br />joinDate: 07/07/2014<br />isPlaying: true| -> Senior: 150 + isPlaying|true: 45 + <7y: yes Discount = 195 - 5% = 185.25
+| `member2`       | name: Lara2<br />birthDate: 21/08/2003<br />joinDate: 07/07/2014<br />isPlaying: false| -> Senior: 150 + isPlaying|false: 0 + <7y: yes Discount = 150 - 5% = 142.5
 | `member3`       | name: Albert1<br />birthDate: 22/09/2006<br />joinDate: 07/06/2019<br />isPlaying: true| -> Junior: 75 + isPlaying|true: 45 + <7y: no Discount = 120
-| `member3`       | name: Albert1<br />birthDate: 22/09/2006<br />joinDate: 07/06/2019<br />isPlaying: false| -> Junior: 75 + isPlaying|false: 0 + <7y: no Discount = 75 
-| `member4`       | name: Marcel1<br />birthDate: 21/09/2006<br />joinDate: 07/06/2014<br />isPlaying: true| -> Junior: 75 + isPlaying|true: 45 + <7y: yes Discount = 120 - 5% = 114
-| `member4`       | name: Marcel1<br />birthDate: 21/09/2006<br />joinDate: 07/06/2014<br />isPlaying: false| -> Junior: 75 + isPlaying|false: 0 + <7y: yes Discount = 75 - 5% = 71.25
+| `member3`       | name: Albert2<br />birthDate: 22/10/2006<br />joinDate: 07/06/2019<br />isPlaying: false| -> Junior: 75 + isPlaying|false: 0 + <7y: no Discount = 75 
+| `member4`       | name: Marcel1<br />birthDate: 15/09/2006<br />joinDate: 07/06/2014<br />isPlaying: true| -> Junior: 75 + isPlaying|true: 45 + <7y: yes Discount = 120 - 5% = 114
+| `member4`       | name: Marcel2<br />birthDate: 15/10/2006<br />joinDate: 07/06/2014<br />isPlaying: false| -> Junior: 75 + isPlaying|false: 0 + <7y: yes Discount = 75 - 5% = 71.25
 
 ### Test Cases
 
@@ -131,7 +131,7 @@ Get the average number of years of membership.
 
 |Expected output|
 |---------------|
-||
+|Changes depending on day...|
 
 #### #4 Get Youngest Member
 
@@ -139,6 +139,6 @@ Calculate the youngest member.
 
 | Expected output |
 | --------------- |
-|Lara|
+|Marcel2|
 
 [scroll to top](#table-of-contents)
