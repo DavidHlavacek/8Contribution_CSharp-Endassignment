@@ -52,17 +52,11 @@ In the table below all the input are described.
 
 #### Remarks
 
-* Test cases are inside `public static void main(String[] args){}`.
-* Input's logic will be verified. This validation isn't described here but can be tested and tried out nonetheless.
-  * e.g: You can only assign one cell per prisoner. You can't add duplicate cells. 
-    * Error message: "This prisoner already has a cell!"
-  * e.g: You can't remove a non existing prisoner from a cell. Etc...
-    * Error message: "This cell doesn't contain this prisoner!"
-* I have granted the freedom to choose the number of prisoners a cell can hold (rather than a static number {2})
+No remarks.
 
 ## Class Diagram
 
-![Class Diagram](images/classdiagram.png "Second Version of the class diagram")
+![Class Diagram](images/classdiagram.png)
 
 ## Testplan
 
