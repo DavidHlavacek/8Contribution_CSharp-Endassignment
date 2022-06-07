@@ -54,8 +54,8 @@ In the table below all the input are described.
 
 |Case|Type|
 |----|----|
-|Individual Contribution|`Member` + `int`|
-|Total Contribution|`int`|
+|Individual Contribution|`Member` + `float`|
+|Total Contribution|`float`|
 |Average Years of Membership|`Float`|
 |Youngest Member|`Member`|
 
@@ -89,10 +89,14 @@ In the following table you'll find all the data that is needed for testing.
 
 | ID            | Input                             | 
 | ------------- | --------------------------------- | 
-| `member1`       | name: David H<br />birthDate: 21/09/2001<br />joinDate: 07/06/2020 |
-| `member2`       | name: Lara<br />birthDate: 21/07/2001<br />joinDate: 07/07/2014  |
-| `member3`       | name: Albert<br />birthDate: 22/09/2006<br />joinDate: 07/06/2019 |
-| `member4`       | name: Marcel<br />birthDate: 21/09/2006<br />joinDate: 07/06/2014| 
+| `member1`       | name: David1 H<br />birthDate: 21/09/2001<br />joinDate: 07/06/2020<br />isPlaying: true| -> Senior: 150 + isPlaying|true: 45 + <7y: no Discount = 195
+| `member1`       | name: David1 H<br />birthDate: 21/09/2001<br />joinDate: 07/06/2020<br />isPlaying: false| -> Senior: 150 + isPlaying|false: 0 + <7y: no Discount = 150
+| `member2`       | name: Lara1<br />birthDate: 21/07/2001<br />joinDate: 07/07/2014<br />isPlaying: true| -> Senior: 150 + isPlaying|true: 45 + <7y: yes Discount = 195 - 5% = 185.25
+| `member2`       | name: Lara2<br />birthDate: 21/07/2001<br />joinDate: 07/07/2014<br />isPlaying: false| -> Senior: 150 + isPlaying|false: 0 + <7y: yes Discount = 150 - 5% = 142.5
+| `member3`       | name: Albert1<br />birthDate: 22/09/2006<br />joinDate: 07/06/2019<br />isPlaying: true| -> Junior: 75 + isPlaying|true: 45 + <7y: no Discount = 120
+| `member3`       | name: Albert1<br />birthDate: 22/09/2006<br />joinDate: 07/06/2019<br />isPlaying: false| -> Junior: 75 + isPlaying|false: 0 + <7y: no Discount = 75 
+| `member4`       | name: Marcel1<br />birthDate: 21/09/2006<br />joinDate: 07/06/2014<br />isPlaying: true| -> Junior: 75 + isPlaying|true: 45 + <7y: yes Discount = 120 - 5% = 114
+| `member4`       | name: Marcel1<br />birthDate: 21/09/2006<br />joinDate: 07/06/2014<br />isPlaying: false| -> Junior: 75 + isPlaying|false: 0 + <7y: yes Discount = 75 - 5% = 71.25
 
 ### Test Cases
 
@@ -104,11 +108,14 @@ The contribution of each member must be calculated and shown.
 
 |Expected output|
 |---------------|
-|David - |
-|Lara - |
-|Albert - |
-|Marcel - |
-
+|David1 - 195|
+|David2 - 150|
+|Lara1 - 185.25|
+|Lara2 - 142.5|
+|Albert1 - 120|
+|Albert2 - 75|
+|Marcel1 - 114|
+|Marcel2 - 71.25|
 
 #### #2 Get Total Contribution
 
@@ -116,15 +123,15 @@ Get the cumulative total contribution.
 
 |Expected output|
 |---------------|
-||
+|1053|
 
-#### #3 Get Average Number of Yeats of Membership
+#### #3 Get Average Number of Years of Membership
 
 Get the average number of years of membership.
 
 |Expected output|
 |---------------|
-|Lara|
+||
 
 #### #4 Get Youngest Member
 
@@ -132,6 +139,6 @@ Calculate the youngest member.
 
 | Expected output |
 | --------------- |
-||
+|Lara|
 
 [scroll to top](#table-of-contents)
