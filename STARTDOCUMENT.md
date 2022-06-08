@@ -70,7 +70,7 @@ In the table below all the input are described.
 
 #### Remarks
 
-No remarks.
+In the diagram I decided to display only the essential methods to the user.
 
 ## Class Diagram
 
