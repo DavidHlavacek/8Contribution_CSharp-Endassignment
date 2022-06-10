@@ -110,13 +110,10 @@ In the following table you'll find all the data that is needed for testing.
 
 In this section the testcases will be described. Every test case should be executed with the test data as starting point.
 
-| Input                                     | Output                                                                   | 
+| \4.Input                                     | \4.Output                                                                   | 
 | ----------------------------------------- | ------------------------------------------------------------------------ | 
 | Name | birthDate | joinDate | isPlaying   | Contribution | Total Contribution | Youngest Member | Average Membership |
 
-| One    | Two | Three | Four    | Five  | Six 
-| -
-| Span <td colspan=3>triple  <td colspan=2>double
 
 #### #1 Get Individual Contribution
 
