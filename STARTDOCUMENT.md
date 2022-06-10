@@ -9,15 +9,8 @@
       - [Calculations](#calculations)
       - [Remarks](#remarks)
   * [Class Diagram](#class-diagram)
-  * [Testplan](#testplan)
-    + [Test Data](#test-data)
-      - [Member](#member)
-    + [Test Cases](#test-cases)
-      - [#1 Get Individual Contribution](#-1-get-individual-contribution)
-      - [#2 Get Total Contribution](#-2-get-total-contribution)
-      - [#3 Get Average Number of Yeats of Membership](#-3-get-average-number-of-yeats-of-membership)
-      - [#4 Get Youngest Member](#-4-get-youngest-member)
-
+  * [Test Cases](#test-cases)
+      
 # Startdocument for 8. Contribution
 
 Startdocument of **David Hlavacek**. Student number **5094879**.
@@ -76,7 +69,7 @@ In the diagram I decided to display only the essential methods to the user.
 
 ![Class Diagram](images/classdiagram.png)
 
-### Test Cases
+## Test Cases
 
 In this section the testcases will be described.
 
