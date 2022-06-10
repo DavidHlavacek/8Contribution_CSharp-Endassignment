@@ -110,6 +110,10 @@ In the following table you'll find all the data that is needed for testing.
 
 In this section the testcases will be described. Every test case should be executed with the test data as starting point.
 
+| Input                                     | Output                                                                   | 
+| ----------------------------------------- | ------------------------------------------------------------------------ | 
+| Name | birthDate | joinDate | isPlaying   | Contribution | Total Contribution | Youngest Member | Average Membership |
+
 #### #1 Get Individual Contribution
 
 The contribution of each member must be calculated and shown.
