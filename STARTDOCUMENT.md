@@ -9,15 +9,8 @@
       - [Calculations](#calculations)
       - [Remarks](#remarks)
   * [Class Diagram](#class-diagram)
-  * [Testplan](#testplan)
-    + [Test Data](#test-data)
-      - [Member](#member)
-    + [Test Cases](#test-cases)
-      - [#1 Get Individual Contribution](#-1-get-individual-contribution)
-      - [#2 Get Total Contribution](#-2-get-total-contribution)
-      - [#3 Get Average Number of Yeats of Membership](#-3-get-average-number-of-yeats-of-membership)
-      - [#4 Get Youngest Member](#-4-get-youngest-member)
-
+  * [Test Cases](#test-cases)
+      
 # Startdocument for 8. Contribution
 
 Startdocument of **David Hlavacek**. Student number **5094879**.
@@ -76,77 +69,105 @@ In the diagram I decided to display only the essential methods to the user.
 
 ![Class Diagram](images/classdiagram.png)
 
-## Testplan
+## Test Cases
 
-In this section the testcases will be described to test the application.
+In this section the testcases will be described.
 
-### Test Data
-
-In the following table you'll find all the data that is needed for testing.
-
-
-#### Member
-
-| ID            | Input                             | 
-| ------------- | --------------------------------- | 
-| `member1`       | name: David1 H<br />birthDate: 21/09/2001<br />joinDate: 07/06/2020<br />isPlaying: true| 
--> Senior: 150 + isPlaying|true: 45 + <7y: no Discount = 195
-| `member1`       | name: David1 H<br />birthDate: 21/09/2001<br />joinDate: 07/06/2020<br />isPlaying: false| 
--> Senior: 150 + isPlaying|false: 0 + <7y: no Discount = 150
-| `member2`       | name: Lara1<br />birthDate: 21/07/2003<br />joinDate: 07/07/2014<br />isPlaying: true|
--> Senior: 150 + isPlaying|true: 45 + <7y: yes Discount = 195 - 5% = 185.25
-| `member2`       | name: Lara2<br />birthDate: 21/08/2003<br />joinDate: 07/07/2014<br />isPlaying: false| 
--> Senior: 150 + isPlaying|false: 0 + <7y: yes Discount = 150 - 5% = 142.5
-| `member3`       | name: Albert1<br />birthDate: 22/09/2006<br />joinDate: 07/06/2019<br />isPlaying: true| 
--> Junior: 75 + isPlaying|true: 45 + <7y: no Discount = 120
-| `member3`       | name: Albert2<br />birthDate: 22/10/2006<br />joinDate: 07/06/2019<br />isPlaying: false| 
--> Junior: 75 + isPlaying|false: 0 + <7y: no Discount = 75 
-| `member4`       | name: Marcel1<br />birthDate: 15/09/2006<br />joinDate: 07/06/2014<br />isPlaying: true| 
--> Junior: 75 + isPlaying|true: 45 + <7y: yes Discount = 120 - 5% = 114
-| `member4`       | name: Marcel2<br />birthDate: 15/10/2006<br />joinDate: 07/06/2014<br />isPlaying: false| 
--> Junior: 75 + isPlaying|false: 0 + <7y: yes Discount = 75 - 5% = 71.25
-
-### Test Cases
-
-In this section the testcases will be described. Every test case should be executed with the test data as starting point.
-
-#### #1 Get Individual Contribution
-
-The contribution of each member must be calculated and shown.
-
-|Expected output|
-|---------------|
-|David1 - 195|
-|David2 - 150|
-|Lara1 - 185.25|
-|Lara2 - 142.5|
-|Albert1 - 120|
-|Albert2 - 75|
-|Marcel1 - 114|
-|Marcel2 - 71.25|
-
-#### #2 Get Total Contribution
-
-Get the cumulative total contribution.
-
-|Expected output|
-|---------------|
-|1053|
-
-#### #3 Get Average Number of Years of Membership
-
-Get the average number of years of membership.
-
-|Expected output|
-|---------------|
-|Changes depending on day...|
-
-#### #4 Get Youngest Member
-
-Calculate the youngest member.
-
-| Expected output |
-| --------------- |
-|Marcel2|
+<table>
+		<tr>
+			<td colspan="4">Input                                     </td>
+			<td colspan="4">Output                                                                   </td>
+		</tr>
+		<tr>
+			<td> Name </td>
+			<td> birthDate </td>
+			<td> joinDate </td>
+			<td> isPlaying   </td>
+			<td> Contribution </td>
+			<td> Total Contribution </td>
+			<td> Youngest Member </td>
+			<td> Average Membership </td>
+		</tr>
+		<tr>
+			<td>David1 </td>
+			<td>21/09/2001 </td>
+			<td>07/06/2020 </td>
+			<td> true</td>
+			<td> 195</td>
+			<td> 195</td>
+			<td> David1</td>
+			<td> -</td>
+		</tr>
+		<tr>
+			<td>David2 </td>
+			<td>21/09/2000 </td>
+			<td>07/06/2020 </td>
+			<td> false</td>
+			<td> 150</td>
+			<td> 345</td>
+			<td> David1</td>
+			<td> -</td>
+		</tr>
+		<tr>
+			<td>Lara1 </td>
+			<td>21/07/2003 </td>
+			<td>07/07/2014 </td>
+			<td> true</td>
+			<td> 185.25</td>
+			<td> 530.35</td>
+			<td> Lara1</td>
+			<td> -</td>
+		</tr>
+		<tr>
+			<td>Lara2 </td>
+			<td>21/08/2003 </td>
+			<td>07/07/2014 </td>
+			<td> false</td>
+			<td> 142.5</td>
+			<td> 672.85</td>
+			<td> Lara2</td>
+			<td> -</td>
+		</tr>
+		<tr>
+			<td>Albert1 </td>
+			<td>22/09/2006 </td>
+			<td>07/06/2019 </td>
+			<td> true</td>
+			<td> 120</td>
+			<td> 792.85</td>
+			<td> Albert1</td>
+			<td> -</td>
+		</tr>
+		<tr>
+			<td>Albert2 </td>
+			<td>22/10/2006 </td>
+			<td>07/06/2019 </td>
+			<td> false</td>
+			<td> 75</td>
+			<td> 867.85</td>
+			<td> Albert2</td>
+			<td> -</td>
+		</tr>
+		<tr>
+			<td>Marcel1 </td>
+			<td>15/09/2006 </td>
+			<td>07/06/2014 </td>
+			<td> true</td>
+			<td> 114</td>
+			<td> 981.85</td>
+			<td> Albert2</td>
+			<td> -</td>
+		</tr>
+		<tr>
+			<td>Marcel2 </td>
+			<td>15/10/2006 </td>
+			<td>07/06/2014 </td>
+			<td> false</td>
+			<td> 71.25</td>
+			<td> 1053.1</td>
+			<td> Albert2</td>
+			<td> -</td>
+		</tr>
+</table>
 
 [scroll to top](#table-of-contents)
