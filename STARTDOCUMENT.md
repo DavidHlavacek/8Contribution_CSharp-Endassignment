@@ -67,29 +67,9 @@ In the diagram I decided to display only the essential methods to the user.
 
 ## Class Diagram
 
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
 
 ![Class Diagram](images/classdiagram.png)
 
-.
-
-.
-
-.
-
-.
 
 ## Test Cases
 
