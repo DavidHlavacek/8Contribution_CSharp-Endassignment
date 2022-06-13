@@ -116,18 +116,18 @@ In this section the testcases will be described.
 			<td>07/07/2014 </td>
 			<td> true</td>
 			<td> 185.25</td>
-			<td> 530.35</td>
+			<td> 530.25</td>
 			<td> Lara1</td>
 			<td> -</td>
 		</tr>
 		<tr>
 			<td>Lara2 </td>
-			<td>21/08/2003 </td>
+			<td>21/06/2003 </td>
 			<td>07/07/2014 </td>
 			<td> false</td>
 			<td> 142.5</td>
-			<td> 672.85</td>
-			<td> Lara2</td>
+			<td> 672.75</td>
+			<td> Lara1</td>
 			<td> -</td>
 		</tr>
 		<tr>
@@ -136,18 +136,18 @@ In this section the testcases will be described.
 			<td>07/06/2019 </td>
 			<td> true</td>
 			<td> 120</td>
-			<td> 792.85</td>
+			<td> 792.75</td>
 			<td> Albert1</td>
 			<td> -</td>
 		</tr>
 		<tr>
 			<td>Albert2 </td>
-			<td>22/10/2006 </td>
+			<td>22/09/2006 </td>
 			<td>07/06/2019 </td>
 			<td> false</td>
 			<td> 75</td>
-			<td> 867.85</td>
-			<td> Albert2</td>
+			<td> 867.75</td>
+			<td> Albert1</td>
 			<td> -</td>
 		</tr>
 		<tr>
@@ -156,8 +156,8 @@ In this section the testcases will be described.
 			<td>07/06/2014 </td>
 			<td> true</td>
 			<td> 114</td>
-			<td> 981.85</td>
-			<td> Albert2</td>
+			<td> 981.75</td>
+			<td> Albert1</td>
 			<td> -</td>
 		</tr>
 		<tr>
@@ -166,8 +166,8 @@ In this section the testcases will be described.
 			<td>07/06/2014 </td>
 			<td> false</td>
 			<td> 71.25</td>
-			<td> 1053.1</td>
-			<td> Albert2</td>
+			<td> 1053</td>
+			<td> Albert1</td>
 			<td> -</td>
 		</tr>
 </table>
